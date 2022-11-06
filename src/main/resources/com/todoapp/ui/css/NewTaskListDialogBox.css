@@ -1,0 +1,62 @@
+{
+    -todo-background-color: #e7e9ed;
+}
+
+
+.root {
+    -fx-background-color: -todo-background-color;
+    -fx-font-family: "Noto Sans";
+    -fx-border-style: hidden solid hidden hidden;
+    -fx-border-color: #c0c5ce;
+    -fx-font-size: 15;
+}
+
+.dialog-pane {
+    -fx-background-color: white;
+    -fx-text-alignment: left;
+    -fx-spacing: 14;
+    -fx-padding: 15;
+}
+
+.button-pane {
+    -fx-spacing: 20;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #303030;
+}
+
+.input {
+    -fx-font: 15px Tahoma;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-padding: 5;
+    /*-fx-border-width: 0 0 1 0;*/
+    -fx-border-radius: 5;
+    -fx-border-color: blue;
+    -fx-background-color: -todo-background-color;
+    -fx-pref-height: 25;
+}
+
+.button {
+    -fx-pref-width: 200;
+    -fx-pref-height: 25;
+    -fx-background-radius: 5;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #FAFAFA;
+    -fx-text-fill: black;
+}
+
+.confirm-button {
+    -fx-background-color: #80b2ff;
+    -fx-text-fill: white;
+}
+
+.cancel-button {
+    -fx-background-color: #E6E6E6;
+}
